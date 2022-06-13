@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="index.html">Minh Châu</a></div>
+            <ul class="menu">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="asm2.html">Sản phẩm</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="login.html">Đăng nhập</a></li>
+                <div class="cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+            </ul>
+            <div class="phone-number">
+                <a href="">0921664486</a>
+            </div>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+    <div class="login-form">
+        <div class="container">
+            <div class="forms">
+                <div class="form login">
+                    <span class="title">Đăng nhập</span>
+
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Nhập email/số điện thoại" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Nhập mật khẩu" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="logCheck">
+                                <label for="logCheck" class="text">Lưu mật khẩu</label>
+                            </div>
+
+                            <a href="#" class="text">Quên mật khẩu?</a>
+                        </div>
+
+                        <div class="input-field buttonn">
+                            <input type="button" value="Đăng nhập">
+                        </div>
+                    </form>
+
+                    <div class="login-signup">
+                        <span class="text">Bạn chưa có tài khoản?
+                            <a href="#" class="text signup-link">Đăng ký ngay</a>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Registration Form -->
+                <div class="form signup">
+                    <span class="title">Đăng ký</span>
+
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" placeholder="Nhập tên" required>
+                            <i class="uil uil-user"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Nhập email/số điện thoại" required>
+                            <i class="uil uil-envelope icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Nhập mật khẩu" required>
+                            <i class="uil uil-lock icon"></i>
+                        </div>
+                        <div class="input-field">
+                            <input type="password" class="password" placeholder="Nhập lại mật khẩu" required>
+                            <i class="uil uil-lock icon"></i>
+                            <i class="uil uil-eye-slash showHidePw"></i>
+                        </div>
+
+                        <div class="checkbox-text">
+                            <div class="checkbox-content">
+                                <input type="checkbox" id="sigCheck">
+                                <label for="sigCheck" class="text">Lưu thông tin</label>
+                            </div>
+                        </div>
+
+                        <div class="input-field buttonn">
+                            <input type="buttonn" value="Đăng ký">
+                        </div>
+                    </form>
+
+                    <div class="login-signup">
+                        <span class="text">Đã có tài khoản?
+                            <a href="#" class="text login-link">Đăng nhập ngay</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="text">
+            <span>PS22939 - Vũ Huy Đức</span>
+        </div>
+    </footer>
+    <script src="login.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
